@@ -1,0 +1,96 @@
+############################# banner ############################
+banner:
+  enable: true
+  title: "Noleggio e-bike, auto e scooter"
+  content: "Offriamo un'ampia selezione di veicoli adatti ad ogni circostanza. Visita il **catalogo** e acquista il tuo ticket comodamente da casa. E non dimenticare di iscriverti alla nostra **newsletter** per non perdere nessuna promozione e novità"
+  image: "images/mainBike.png"
+  button:
+    enable: true
+    label: "Vai al catalogo"
+    link: "terms-conditions/"
+    
+############################# promo ############################
+promo:
+  enable: true
+  image: "images/keys.png"
+  title: "Soluzioni studiate a partire dalle tue esigenze"
+  content:
+    "Che sia un'**auto** per una gita fuoriporta, una **e-bike** per una comoda passeggiata o un **monopattino** per non arrivare mai in ritardo, **Essegi** ha il mezzo che fa per te: freschi, efficienti e passo con i tempi, proprio come noi! Puoi acquistare un **ticket** in negozio o sul sito, comodamente da casa e in anticipo, per fare ancora più in fretta 💨"
+
+
+############################# Feature ############################
+features:
+  enable: false
+  title: "I nostri social"
+  image: "images/watch-2.png"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+    - title: "Smooth Touch"
+      icon: "tf-ion-social-facebook-outline"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+    - title: "Smooth Touch"
+      icon: "tf-ion-social-instagram-outline"
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+############################# About Product #######################
+about_product:
+  enable: true
+  items:
+#    # about product item loop
+#    - image: "images/showcase/Home About/ecoFriendly.png"
+#      title: "Siamo Eco-Friendly"
+#      content:
+#        "Il futuro è verde con Essegi: i nostri veicoli sono a **zero emissioni**, interamente **elettrici** e rispettosi dell'ambiente. Anche la natura ti ringrazia 🌳"
+#      button:
+#        enable: false
+#        label: "Check Features"
+#        link: "#/"
+
+    # about product item loop
+    - image: "images/Help.png"
+      title: "Hai dubbi?"
+      content:
+        "Recati nella sezione contatti! **Chiamaci**, mandaci un messaggio **whatsapp**, compila un **form** al volo o **vienici a trovare** in sede: saremo felici di rispondere ad ogni tua domanda"
+      button:
+        enable: true
+        label: "contatti"
+        link: "contact/"
+
+
+################################## Subscription ###################
+subscription:
+  enable: true
+  bg_image: "images/call-to-action.jpg"
+  title: "Rimani aggiornato su offerte e novità"
+  content: "Lascia la tua e-mail e iscriviti alla newsletter per accedere ad offerte riservate e per rimanere aggiornato su tutte le novità di Essegi"
+  placeholder: " Lascia la tua e-mail"
+
+############################## Testimonial ##########################
+testimonial:
+  enable: false
+  title: "Parere dei clienti"
+  testimonial_item:
+    # testimonial item loop
+    - name: "Marco"
+      designation: "CEO, Themefisher"
+      image: "images/team/john.png"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+
+    # testimonial item loop
+    - name: "Maria"
+      designation: "CEO, Themefisher"
+      image: "images/team/mary.png"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+
+    # testimonial item loop
+    - name: "Luca"
+      designation: "CEO, Themefisher"
+      image: "images/team/dev.png"
+      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."

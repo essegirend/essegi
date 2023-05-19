@@ -1,0 +1,114 @@
+################################### Default Configuration ############################
+baseurl = "https://www.essegirent.com"
+title = "Essegi Rent and Services"
+theme = "vex-hugo"
+# post excert
+summarylength = "20"
+# google analytics
+googleAnalytics = "" # Ex: UA-123-45
+# disable language
+disableLanguages = [true] # disable language from here
+
+# unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+#################################### Plugins ##########################################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Droid+Serif:400|Josefin+Sans:300,400,600,700"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themefisher-font/themefisher-font.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.min.css"
+[[params.plugins.css]]
+link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "https://cdn.snipcart.com/themes/v3.0.27/default/snipcart.js"
+
+
+###################################### Navigation ######################################
+
+# homepage section menu
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Prodotti"
+url = "products/"
+weight = 2
+
+[[menu.main]]
+name = "Contatti"
+url = "contact/"
+weight = 5
+
+[[menu.footer]]
+name = "Contact"
+url = "contact/"
+weight = 2
+
+[[menu.footer]]
+name = "Facebook"
+url = "https://www.facebook.com/people/Essegirent/100091338414206/"
+weight = 4
+
+[[menu.footer]]
+name = "Instagram"
+url = "https://www.instagram.com/essegirent/"
+weight = 4
+
+
+########################### Default parameters ##########################
+[params]
+logo = "images/logo.png"
+logo_width = "250"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# currency
+currency = "€"
+
+# contact form action
+contact_form_action = "https://formspree.io/f/mayzkkok" # contact form works with https://formspree.io
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use .png , .svg or .gif format
+
+# Snipcart
+[params.snipcart]
+enable = true
+# snipcart public api key
+snipcart_api = "MmI3MTUzMmMtZmIwZS00YjI5LTkzMmMtYWJjMThmOTY0NWNhNjM4MTQ2NjQzOTg1ODI1NTY5"
+
+# Subscription
+[params.subscription]
+# mailchimp subsciption
+mailchimp_form_action = "https://outlook.us21.list-manage.com/subscribe/post?u=75cbd6cc93e6654de23a55cec&amp;id=967bf74377&amp;f_id=00d8cae1f0" # replace this url with yours
+mailchimp_form_name = "b_75cbd6cc93e6654de23a55cec_967bf74377"                                                           # replace this code with yours
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+# copyright
+copyright = "Shy-Neon"
+
