@@ -8,6 +8,17 @@
   {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
   {{ hugo.Generator }}
   
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SV5BLLT06M">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SV5BLLT06M');
+  </script> 
+
   <!-- theme meta -->
   <meta name="theme-name" content="vex-hugo" />
 
@@ -28,6 +39,5 @@
   <meta property="og:image" content="{{ . | absURL }}" />
   {{ end }}
   {{ template "_internal/opengraph.html" . }}
-  {{ template "_internal/google_analytics_async.html" . }}
 
 </head>

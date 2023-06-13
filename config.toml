@@ -75,6 +75,7 @@ weight = 4
 ########################### Default parameters ##########################
 [params]
 logo = "images/logo.png"
+tessera = "images/tessera.jpg"
 logo_width = "250"
 # Meta data
 description = "This is meta description"
