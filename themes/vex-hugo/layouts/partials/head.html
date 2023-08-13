@@ -18,7 +18,11 @@
 
     gtag('config', 'G-SV5BLLT06M');
   </script> 
-
+{{ $style := resources.Get "style.css" }}    
+<link rel="stylesheet" href="{{ $style.Permalink }}"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
   <!-- theme meta -->
   <meta name="theme-name" content="vex-hugo" />
 

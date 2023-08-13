@@ -74,23 +74,29 @@ subscription:
 
 ############################## Testimonial ##########################
 testimonial:
-  enable: false
+  enable: true
   title: "Parere dei clienti"
   testimonial_item:
-    # testimonial item loop
-    - name: "Marco"
-      designation: "CEO, Themefisher"
-      image: "images/team/john.png"
-      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
 
-    # testimonial item loop
-    - name: "Maria"
-      designation: "CEO, Themefisher"
+   # testimonial item loop
+    - name: "Calogero"
+
       image: "images/team/mary.png"
-      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      content: "Servizio impeccabile   titolare cortese e molto disponibile lo consiglio a tutti ,esperienza unica."
+
 
     # testimonial item loop
-    - name: "Luca"
-      designation: "CEO, Themefisher"
+    - name: "Jo Ja"
+
+      image: "images/team/john.png"
+      content: "Servizio e trattamento fantastici. Giuseppe ci ha assistito molto gentilmente.
+Abbiamo noleggiato 2 scooter, ci ha consigliato fantastici percorsi da visitare
+Prezzo/Qualità. Eccellente.
+ALTAMENTE RACCOMANDATO."
+
+   
+    # testimonial item loop
+    - name: "Daniel"
+
       image: "images/team/dev.png"
-      content: "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      content: "Ottimo servizio, prezzo e qualità delle motociclette, ritornerei sicuramente."
