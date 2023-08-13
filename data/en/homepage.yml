@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Vai al catalogo"
-    link: "terms-conditions/"
+    link: "products/"
     
 ############################# promo ############################
 promo:
