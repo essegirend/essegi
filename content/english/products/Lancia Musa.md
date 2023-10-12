@@ -1,14 +1,14 @@
 ---
-title: "Lancia Musa 1.9 Multijet"
+title: "Aprilia rs125"
 date: 2019-10-17T11:22:16+06:00
 images: 
-  - "images/showcase/veicoli/lanciaMusa.png"
+  - "images/showcase/veicoli/aprilia.jpg"
 
 # meta description
 description : "this is meta description"
 
 # product Price
-price: "60.00"
+price: "40.00"
 
 # product variation
 colors : []
