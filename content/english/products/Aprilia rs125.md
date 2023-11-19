@@ -8,7 +8,7 @@ images:
 description : "this is meta description"
 
 # product Price
-price: "60.00"
+price: "45.00"
 
 # product variation
 colors : []
